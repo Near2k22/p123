@@ -19,8 +19,8 @@ cloudstream {
     status = 1 // will be 3 if unspecified
     tvTypes = listOf(
         "Anime",
-        "TvSeries",
-        "Movie",
+        "Series",
+        "Peliculas",
     )
 
     iconUrl = "https://www.google.com/s2/favicons?domain=cuevana3.me&sz=%size%"
