@@ -9,14 +9,14 @@ import com.lagradost.cloudstream3.utils.loadExtractor
 
 class CuevanaProvider : MainAPI() {
     override var mainUrl = "https://cuevana3.me"
-    override var name = "Cuevana"
+    override var name = "CuevanaPlus"
     override var lang = "es"
     override val hasMainPage = true
     override val hasChromecastSupport = true
     override val hasDownloadSupport = true
     override val supportedTypes = setOf(
-        TvType.Movie,
-        TvType.TvSeries,
+        TvType.Peliculas,
+        TvType.Series,
     )
 
     override suspend fun getMainPage(page: Int, request : MainPageRequest): HomePageResponse {
