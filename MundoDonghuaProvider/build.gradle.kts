@@ -18,7 +18,7 @@ cloudstream {
      * */
     status = 1 // will be 3 if unspecified
     tvTypes = listOf(
-        "AnimeMovie",
+        "PeliculasAnime",
         "Anime",
     )
 

@@ -18,8 +18,8 @@ cloudstream {
      * */
     status = 0 // will be 3 if unspecified
     tvTypes = listOf(
-        "TvSeries",
-        "Movie",
+        "Series",
+        "Peliculas",
     )
 
 
